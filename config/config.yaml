@@ -1,0 +1,20 @@
+model:
+  model_name: "Salesforce/blip-vqa-base"
+  device: null  # auto-detect
+  use_pipeline: false
+  max_length: 50
+  num_beams: 5
+  temperature: 1.0
+
+app:
+  debug: false
+  log_level: "INFO"
+  data_dir: "data"
+  models_dir: "models"
+  output_dir: "outputs"
+
+ui:
+  title: "Visual Question Answering Demo"
+  theme: "light"
+  sidebar_width: 300
+  max_image_size: 512
